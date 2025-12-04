@@ -35,11 +35,10 @@ The `DPI_CONFIG` macro will cycle through the values in the array, each time you
 
 Drag Sroll is a custom keycode for the Ploopy devices that allow you to hold or tap a button and have the mouse movement translate into scrolling instead.
 
-Nothing needs to be enabled to use this functionality.  Just add the `DRAG_SCROLL` to your keymap.
+Nothing needs to be enabled to use this functionality.  Just add the `DRAG_SCROLL` or `DRAG_SCROLL_MOMENTARY` to your keymap.
 
 ### Drag Scroll Configuration
 
-* `#define PLOOPY_DRAGSCROLL_MOMENTARY` - Makes the key into a momentary key, rather than a toggle.
 * `#define PLOOPY_DRAGSCROLL_DIVISOR_H 8.0` - Sets the horizontal movement divisor to use when drag scroll is enabled.
 * `#define PLOOPY_DRAGSCROLL_DIVISOR_V 8.0` - Sets the vertical movement divisor to use when drag scroll is enabled.
 * `#define PLOOPY_DRAGSCROLL_INVERT` - This reverses the direction that the scroll is performed.
