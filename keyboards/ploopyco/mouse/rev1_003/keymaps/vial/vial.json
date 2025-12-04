@@ -16,6 +16,11 @@
       "name": "Drag Scroll",
       "title": "Drag Scroll: Enables you to scroll instead of moving the cursor",
       "shortName": "DragScl"
+    },
+    {
+      "name": "Drag Scroll Momentary",
+      "title": "Drag Scroll Momentary: Enables you to scroll instead of moving the cursor while held",
+      "shortName": "DragSclM"
     }
   ],
   "lighting": "none",
